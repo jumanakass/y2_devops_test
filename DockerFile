@@ -24,6 +24,6 @@ RUN go build -o app/main2
 #CMD ["echo","This mission is finished"]
 #CMD ["go", "run", "main2.go"]
 
-CMD ["/app/main"]
+CMD ["/app/main2"]
 
 
