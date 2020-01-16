@@ -14,7 +14,7 @@ WORKDIR /app
 
 # Build the Go app
 RUN go get github.com/gorilla/mux
-RUN go build -o app/main
+RUN go build -o main
 
 
 
