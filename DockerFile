@@ -4,7 +4,7 @@ FROM golang:latest
 
 # Set the Current Working Directory inside the container
 #WORKDIR /C:/test/y2_devops_test
-WORKDIR C:\test\y2_devops_test
+#WORKDIR C:\test\y2_devops_test
 
 # Build the Go app
 RUN go run main.go
